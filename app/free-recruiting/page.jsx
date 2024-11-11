@@ -63,10 +63,10 @@ const page = () => {
   return (
     <>
         <div>
-           <IntroBanner/>
+           {/* <IntroBanner/> */}
 
 
-            <div className='max-w-screen-2xl mx-auto px-10 max-md:px-4 grid grid-cols-3 gap-8 max-lg:grid-cols-2 mb-20 max-sm:grid-cols-1 max-sm:gap-16'>
+            <div className='max-w-screen-2xl mx-auto px-10 max-md:px-4 grid grid-cols-3 gap-8 max-lg:grid-cols-2 mb-20 max-sm:grid-cols-1 max-sm:gap-16 mt-20'>
                 
               {cardArr.map((item)=>{
                 return <RecruitingCard head={item.head} image={item.image} para={item.para}/>

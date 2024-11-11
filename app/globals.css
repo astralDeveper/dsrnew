@@ -30,3 +30,30 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Define default background properties */
+.responsive-banner {
+  background-image: url("https://i.ibb.co/Y7Ndh92/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+/* Make adjustments for smaller screen sizes */
+@media (max-width: 768px) {
+  .responsive-banner {
+    background-image: url("https://i.ibb.co/Y7Ndh92/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -10%;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-banner {
+    /* height:; */
+    background-repeat: no-repeat;
+  }
+}

@@ -5,7 +5,7 @@ import server from '../public/server.png'
 const DiamondCards = () => {
   return (
    <>
-   <section className="max-w-screen-2xl px-10 max-md:px-4  mx-auto">
+   <section className="max-w-screen-2xl px-10 max-md:px-4  mx-auto -mt-20">
       <div className="container px-5 py-24 mx-auto">
     
         <div className="flex flex-wrap -m-2">
